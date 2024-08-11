@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 99%;
+    margin: 3px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: greenyellow;
+    width: 100%;
+    padding: 20px;
+}
+
+header .menu {
+    background-color: yellow;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: -10px;
+}
+
+main {
+    display: flex;
+    background-color: blue;
+    padding: 20px;
+    flex: 1;
+}
+
+main .section {
+    background-color: skyblue;
+    flex: 2;
+    height: 95%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+main .aside {
+    background-color: skyblue;
+    flex: 1;
+    height: 95%;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: orangered;
+    width: 100%;
+    padding: 20px;
+}
